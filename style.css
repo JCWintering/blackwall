@@ -1,10 +1,14 @@
-html, body {
+html, body, head {
 	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	background-color: #000;
 }
 
+/* Commented out b/c redundancy.
 body, head {
 	background-color: #000;
 }
+*/
 
 h1 {
 	border-left: 2px solid #00f28f;
@@ -73,7 +77,7 @@ button.btn:hover {
 
 li {
 	padding-left: 20px;
-	border-left: 2px solid #fff;
+	border-left: 2px solid #262626;
 	font-size: 36px;
 	margin: 0 0 36px;
 	word-wrap: break-word;
