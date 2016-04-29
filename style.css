@@ -60,5 +60,5 @@ li {
 	border-left: 2px solid #000;
 	font-size: 36px;
 	margin: 0 0 36px;
-
+	word-wrap: break-word;
 }
