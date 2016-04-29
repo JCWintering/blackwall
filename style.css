@@ -2,6 +2,9 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+body, head {
+	background-color: #000;
+}
 
 h1 {
 	border-left: 2px solid #00f28f;
@@ -15,9 +18,9 @@ h1 {
 }
 
 form input {
-	background-color: #f0f0f0;
+	background-color: #1a1a1a;
 	border: none;
-	border-left: 2px solid #fff;
+	border-left: 2px solid #000;
 	font-size: 36px;
 	padding: 20px;
 	width: 100%;
@@ -25,8 +28,8 @@ form input {
 }
 
 form input:focus {
-	background: #fff;
-	border-left: 2px solid #000;
+	background: #000;
+	border-left: 2px solid #00f28f;
 	box-shadow: none;
 	outline: none;
 }
@@ -43,7 +46,7 @@ button.btn {
 
 button.btn:hover {
 	background: #00f28f;
-	color: #fff;
+	color: #000;
 }
 
 .comments {
