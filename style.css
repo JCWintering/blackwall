@@ -21,7 +21,7 @@ form input {
 	font-size: 36px;
 	padding: 20px;
 	width: 100%;
-	transition: background 2s, border-left 2s;
+	transition: background 1s, border-left 2s;
 }
 
 form input:focus {
@@ -38,7 +38,7 @@ button.btn {
 	cursor: pointer;
 	font-size: 36px;
 	padding: 20px 24px;
-	transition: background 2s, color 2s;
+	transition: background 1s, color 1s;
 }
 
 button.btn:hover {
