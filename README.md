@@ -1,5 +1,5 @@
 # blackwall
 
-Personal wall of communication shared between users, built using HTML/CSS, JavaScript/JQuery and Bootstrap.
+Personal wall of communication shared between users, built using HTML/CSS, JavaScript(Nodejs)/JQuery, Bootstrap and MongoDB.
 
-Created and updated by Alan Shugert and Joel Wintering
+Created by Alan Shugert and Joel Wintering
