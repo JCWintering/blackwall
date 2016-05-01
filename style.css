@@ -11,7 +11,7 @@ body, head {
 */
 
 h1 {
-	border-left: 2px solid #00f28f;
+	border-left: 2px solid #8484ff;
 	font-size: 48px;
 	font-weight: 400;
 	padding-left: 20px;
@@ -33,7 +33,7 @@ form input {
 
 form input:focus {
 	background: #000;
-	border-left: 2px solid #00f28f;
+	border-left: 2px solid #8484ff;
 	box-shadow: none;
 	outline: none;
 }
@@ -57,7 +57,7 @@ input:focus:-ms-input-placeholder {
 button.btn {
 	background: transparent;
 	border: none;
-	color: #00f28f;
+	color: #8484ff;
 	cursor: pointer;
 	font-size: 36px;
 	padding: 20px 24px;
@@ -65,8 +65,12 @@ button.btn {
 }
 
 button.btn:hover {
-	background: #00f28f;
+	background: #8484ff;
 	color: #000;
+}
+
+button.btn:focus {
+	outline: #262626 solid thick;
 }
 
 .comments {
