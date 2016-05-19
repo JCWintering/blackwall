@@ -1,0 +1,21 @@
+		<div class="main">
+			<div class="container">
+				<div class="row">
+					<%= form_for(@new_post) do |f| %>						<div class="col-xs-8 col-md-10">
+
+							<%= f.text_field :comment, :placeholder => "_" %>
+						</div>
+						<div class="col-xs-4 col-md-2">
+							<%= f.submit :post, :class => "btn" %>
+						</div>
+					<% end %>
+				</div>
+
+				<ul class="comments" id="comments">
+					<% @posts.each do |p| %>
+						<li><%= p.comment %></li>
+					<% end %>
+				</ul>
+
+			</div>
+		</div>
