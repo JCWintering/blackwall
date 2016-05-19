@@ -1,3 +1,4 @@
+// OBSOLETE
 
 var main = function() {
 	$('form').submit(function(event) {
